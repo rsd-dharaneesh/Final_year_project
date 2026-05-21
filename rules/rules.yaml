@@ -1,0 +1,31 @@
+# Rules configuration (YAML)
+# Define rules that the engine will load and evaluate.
+
+reply_to_mismatch:
+  severity: high
+  weight: 0.4
+
+html_form:
+  severity: critical
+  weight: 0.6
+
+lookalike_domain:
+  severity: critical
+  weight: 0.7
+
+link_text_mismatch:
+  severity: high
+  weight: 0.4
+
+new_domain_age:
+  severity: medium
+  weight: 0.3
+
+unicode_homoglyph:
+  severity: high
+  weight: 0.4
+
+attachment_urgency:
+  severity: high
+  weight: 0.5
+
